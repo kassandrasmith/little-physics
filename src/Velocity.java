@@ -3,7 +3,7 @@ public class Velocity {
     int initialVelocity = 0;
     int velocity = 0;
     int[] velocityTable = new int[100];
-
+    boolean checked = false;
     public void calculateVelocity(int acceleration){
         for(int t=0; t<100; t++) {
             velocity = initialVelocity + (acceleration * t);
