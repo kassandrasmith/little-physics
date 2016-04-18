@@ -11,6 +11,7 @@ public class Dialog extends JDialog {
     private JRadioButton velocityRadioButton;
     private JRadioButton placeholderRadioButton;
     final Velocity newVelocity = new Velocity();
+
     public Dialog() {
 
         setContentPane(contentPane);
@@ -46,25 +47,27 @@ public class Dialog extends JDialog {
         velocityRadioButton.addPropertyChangeListener(new PropertyChangeListener() {
             @Override
             public void propertyChange(PropertyChangeEvent propertyChangeEvent) {
-
-                newVelocity.checked = true;
+                    onPush();
+                //todo do calculations
+                //todo output here?
             }
         });
     }
 
     private void onOK() {
-    if (newVelocity.checked){
-        //todo do calculations
-        //todo output here?
-    }
+
         dispose();
     }
+
 
     private void onCancel() {
-// todo thank you message
         dispose();
     }
 
+    private void onPush(){
+     //   pleaseSelectAQuestionTextArea.replaceRange("Velocity selected", 0, 30);
+        pleaseSelectAQuestionTextArea.insert("hi", 0);
+    }
     public static void main(String[] args) {
         Dialog dialog = new Dialog();
         dialog.pack();
