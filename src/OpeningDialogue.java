@@ -3,7 +3,7 @@ import java.awt.event.*;
 import java.beans.PropertyChangeEvent;
 import java.beans.PropertyChangeListener;
 
-public class Dialog extends JDialog {
+public class OpeningDialogue extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
@@ -12,7 +12,8 @@ public class Dialog extends JDialog {
     private JRadioButton placeholderRadioButton;
     final Velocity newVelocity = new Velocity();
 
-    public Dialog() {
+
+    public OpeningDialogue() {
 
         setContentPane(contentPane);
         setModal(true);
@@ -47,7 +48,7 @@ public class Dialog extends JDialog {
         velocityRadioButton.addPropertyChangeListener(new PropertyChangeListener() {
             @Override
             public void propertyChange(PropertyChangeEvent propertyChangeEvent) {
-                    onPush();
+
                 //todo do calculations
                 //todo output here?
             }
@@ -57,6 +58,8 @@ public class Dialog extends JDialog {
     private void onOK() {
 
         dispose();
+        VelocityInput newguy = new VelocityInput();
+        newguy.setVisible(true);
     }
 
 
@@ -64,14 +67,11 @@ public class Dialog extends JDialog {
         dispose();
     }
 
-    private void onPush(){
-     //   pleaseSelectAQuestionTextArea.replaceRange("Velocity selected", 0, 30);
-        pleaseSelectAQuestionTextArea.insert("hi", 0);
-    }
+
     public static void main(String[] args) {
-        Dialog dialog = new Dialog();
-        dialog.pack();
-        dialog.setVisible(true);
+        OpeningDialogue openingDialogue = new OpeningDialogue();
+        openingDialogue.pack();
+        openingDialogue.setVisible(true);
         System.exit(0);
     }
 }
