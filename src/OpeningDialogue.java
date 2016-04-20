@@ -7,11 +7,8 @@ public class OpeningDialogue extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
-    private JTextArea pleaseSelectAQuestionTextArea;
     private JRadioButton velocityRadioButton;
     private JRadioButton placeholderRadioButton;
-    final Velocity newVelocity = new Velocity();
-
 
     public OpeningDialogue() {
 
@@ -53,13 +50,19 @@ public class OpeningDialogue extends JDialog {
                 //todo output here?
             }
         });
+        velocityRadioButton.addComponentListener(new ComponentAdapter() {
+        });
+        buttonOK.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                VelocityInput newguy = new VelocityInput();
+                newguy.setVisible(true);
+            }
+        });
     }
 
     private void onOK() {
-
         dispose();
-        VelocityInput newguy = new VelocityInput();
-        newguy.setVisible(true);
     }
 
 
