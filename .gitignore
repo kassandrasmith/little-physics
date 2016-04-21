@@ -46,4 +46,10 @@ Temporary Items
 # others
 *.iml
 
+#LaTex
+*.aux
+*.log
+*.out
+*.gz
+
 # IntelliJ files
