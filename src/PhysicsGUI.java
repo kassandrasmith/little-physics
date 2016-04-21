@@ -2,10 +2,8 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Created by kassandra on 4/19/16.
- */
 public class PhysicsGUI {
+  //GUI Elements
     private JPanel panel1;
     private JTextField textField1;
     private JTextField textField2;
@@ -15,12 +13,24 @@ public class PhysicsGUI {
     private JTextField textField6;
     private JButton calculateButton;
     private JScrollBar scrollBar1;
+//Calculation elements
+    double initialVelocity;
+    double acceleration;
+    double time;
+    double initialX;
+    double velocity;
+    double finalX;
 
     public PhysicsGUI() {
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
                 //stuff for when "calculate" is pressed
+                Velocity velocityCalc = new Velocity();
+                velocityCalc.initialVelocity = initialVelocity;
+                velocityCalc.acceleration = acceleration;
+                velocityCalc.time = time;
+                velocity = velocityCalc.calculateVelocity();
             }
         });
         textField1.addActionListener(new ActionListener() {
