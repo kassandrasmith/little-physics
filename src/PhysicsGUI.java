@@ -2,9 +2,9 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class PhysicsGUI {
-  //GUI Elements
-    private JPanel panel1;
+public class PhysicsGUI{
+    //GUI Elements
+    public JPanel physicsPanel;
     private JTextField textField1;
     private JTextField textField2;
     private JTextField textField3;
@@ -13,7 +13,7 @@ public class PhysicsGUI {
     private JTextField textField6;
     private JButton calculateButton;
     private JScrollBar scrollBar1;
-//Calculation elements
+    //Calculation elements
     double initialVelocity;
     double acceleration;
     double time;
@@ -22,6 +22,7 @@ public class PhysicsGUI {
     double finalX;
 
     public PhysicsGUI() {
+        JPanel physicsPanel = this.physicsPanel;
         calculateButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -70,4 +71,5 @@ public class PhysicsGUI {
             }
         });
     }
+
 }
