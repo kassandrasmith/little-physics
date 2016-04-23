@@ -1,3 +1,5 @@
+package physics;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -20,6 +22,10 @@ public class PhysicsGUI{
     double initialX;
     double velocity;
     double finalX;
+
+    private void createUIComponents() {
+        physicsPanel = new JPanel();
+    }
 
     public PhysicsGUI() {
         JPanel physicsPanel = this.physicsPanel;
