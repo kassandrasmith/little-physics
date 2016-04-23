@@ -1,3 +1,5 @@
+package physics;
+
 public class Velocity {
     double initialVelocity = 0;
     double velocity = 0;

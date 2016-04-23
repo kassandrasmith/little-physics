@@ -1,3 +1,6 @@
+
+package physics;
+
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -46,6 +49,8 @@ public class Opener extends JDialog {
         frame.pack();
         frame.setVisible(true);
 // add your code here
+
+
         dispose();
     }
 
