@@ -1,3 +1,5 @@
+package physics;
+
 import javax.swing.*;
 import java.awt.event.*;
 
@@ -5,12 +7,13 @@ public class GetNumbers extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
-    private JTextField TextField1;
-    private JTextField TextField2;
-    private JTextField TextField3;
-    private JTextField textField4;
-    private JTextField TextField5;
-    private JTextField textField6;
+    private JTextField initialVelocity;
+    private JTextField acceleration;
+    private JTextField inputTime;
+    private JTextField velocityAtTime;
+    private JTextField initialX;
+    private JTextField outputx;
+    public Velocity calculator;
 
     public GetNumbers() {
         setContentPane(contentPane);
@@ -47,7 +50,15 @@ public class GetNumbers extends JDialog {
 
     private void onOK() {
 // add your code here
-        dispose();
+        calculator = new Velocity();
+
+        calculator.acceleration = makeDouble(acceleration);
+        calculator.initialVelocity = makeDouble(initialVelocity);
+        calculator.time = makeDouble(inputTime);
+        velocityAtTime.replaceSelection(" " + calculator.calculateVelocity());
+
+
+
     }
 
     private void onCancel() {
@@ -60,5 +71,10 @@ public class GetNumbers extends JDialog {
         dialog.pack();
         dialog.setVisible(true);
         System.exit(0);
+    }
+
+    private double makeDouble(javax.swing.JTextField input){
+        String out = input.getText();
+        return Double.parseDouble(out);
     }
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GetNumbers">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="physics.GetNumbers">
   <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
-      <xy x="48" y="54" width="978" height="297"/>
+      <xy x="48" y="54" width="988" height="297"/>
     </constraints>
     <properties/>
     <border type="none"/>
@@ -65,9 +65,9 @@
               <text value="Initial Velocity"/>
             </properties>
           </component>
-          <component id="4244a" class="javax.swing.JTextField" binding="TextField1">
+          <component id="4244a" class="javax.swing.JTextField" binding="initialVelocity">
             <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
@@ -83,7 +83,7 @@
               <text value="Acceleration"/>
             </properties>
           </component>
-          <component id="2f2fd" class="javax.swing.JTextField" binding="TextField2">
+          <component id="2f2fd" class="javax.swing.JTextField" binding="acceleration">
             <constraints>
               <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -101,7 +101,7 @@
               <text value="At Time"/>
             </properties>
           </component>
-          <component id="f9bd6" class="javax.swing.JTextField" binding="TextField3">
+          <component id="f9bd6" class="javax.swing.JTextField" binding="inputTime">
             <constraints>
               <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -119,14 +119,14 @@
               <text value="Velocity at time"/>
             </properties>
           </component>
-          <component id="20fdd" class="javax.swing.JTextField" binding="textField4">
+          <component id="20fdd" class="javax.swing.JTextField" binding="velocityAtTime">
             <constraints>
               <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
             <properties>
-              <text value="?"/>
+              <text value="6"/>
             </properties>
           </component>
           <component id="211da" class="javax.swing.JLabel">
@@ -137,7 +137,7 @@
               <text value="initial x location"/>
             </properties>
           </component>
-          <component id="cf154" class="javax.swing.JTextField" binding="TextField5">
+          <component id="cf154" class="javax.swing.JTextField" binding="initialX">
             <constraints>
               <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -155,7 +155,7 @@
               <text value="x location at time"/>
             </properties>
           </component>
-          <component id="c3c52" class="javax.swing.JTextField" binding="textField6">
+          <component id="c3c52" class="javax.swing.JTextField" binding="outputx">
             <constraints>
               <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
