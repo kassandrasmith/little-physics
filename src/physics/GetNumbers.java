@@ -48,18 +48,7 @@ public class GetNumbers extends JDialog {
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
 
-    private void onOK() {
-// add your code here
-        calculator = new Velocity();
-
-        calculator.acceleration = makeDouble(acceleration);
-        calculator.initialVelocity = makeDouble(initialVelocity);
-        calculator.time = makeDouble(inputTime);
-        velocityAtTime.replaceSelection(" " + calculator.calculateVelocity());
-
-
-
-    }
+    private void onOK() #!
 
     private void onCancel() {
 // add your code here if necessary
