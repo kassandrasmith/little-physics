@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<<<<<<< HEAD
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="physics.PhysicsGUI">
   <grid id="27dc6" binding="physicsPanel" layout-manager="FormLayout">
+=======
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PhysicsGUI">
+<<<<<<< HEAD
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="FormLayout">
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+=======
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="physics.PhysicsGUI">
+>>>>>>> a74c744... Make calculations work
+  <grid id="27dc6" binding="physicsPanel" layout-manager="FormLayout">
+>>>>>>> 7b9f150... Add code to open form
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
     <rowspec value="center:max(d;4px):noGrow"/>
@@ -32,7 +45,20 @@
     <rowspec value="center:max(d;4px):noGrow"/>
     <rowspec value="top:4dlu:noGrow"/>
     <rowspec value="center:38px:noGrow"/>
+<<<<<<< HEAD
+<<<<<<< HEAD
     <colspec value="fill:11px:noGrow"/>
+=======
+    <rowspec value="center:max(d;4px):noGrow"/>
+    <rowspec value="center:d:grow"/>
+<<<<<<< HEAD
+    <colspec value="fill:max(d;4px):noGrow"/>
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+=======
+>>>>>>> a74c744... Make calculations work
+    <colspec value="fill:11px:noGrow"/>
+>>>>>>> 7b9f150... Add code to open form
     <colspec value="left:4dlu:noGrow"/>
     <colspec value="fill:d:noGrow"/>
     <constraints>
@@ -50,7 +76,15 @@
           <text value="Initial Velocity"/>
         </properties>
       </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
       <component id="fa16e" class="javax.swing.JTextField" binding="initialVelocity">
+=======
+      <component id="fa16e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+      <component id="fa16e" class="javax.swing.JTextField" binding="initialVelocity">
+>>>>>>> a74c744... Make calculations work
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -82,7 +116,22 @@
           <forms defaultalign-horz="false"/>
         </constraints>
       </hspacer>
+<<<<<<< HEAD
+<<<<<<< HEAD
       <component id="a2b36" class="javax.swing.JTextField" binding="acceleration">
+=======
+      <component id="cb268" class="javax.swing.JScrollBar" binding="scrollBar1" default-binding="true">
+        <constraints>
+          <grid row="32" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a2b36" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+      <component id="a2b36" class="javax.swing.JTextField" binding="acceleration">
+>>>>>>> a74c744... Make calculations work
         <constraints>
           <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -102,7 +151,15 @@
           <text value="Time"/>
         </properties>
       </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
       <component id="7d572" class="javax.swing.JTextField" binding="time">
+=======
+      <component id="7d572" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+      <component id="7d572" class="javax.swing.JTextField" binding="time">
+>>>>>>> a74c744... Make calculations work
         <constraints>
           <grid row="12" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -120,7 +177,15 @@
           <text value="Initial x location"/>
         </properties>
       </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
       <component id="458ec" class="javax.swing.JTextField" binding="initialX">
+=======
+      <component id="458ec" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+      <component id="458ec" class="javax.swing.JTextField" binding="initialX">
+>>>>>>> a74c744... Make calculations work
         <constraints>
           <grid row="16" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -138,7 +203,15 @@
           <text value="Velocity"/>
         </properties>
       </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
       <component id="7ba6a" class="javax.swing.JTextField" binding="velocity">
+=======
+      <component id="7ba6a" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+      <component id="7ba6a" class="javax.swing.JTextField" binding="velocity">
+>>>>>>> a74c744... Make calculations work
         <constraints>
           <grid row="20" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -156,7 +229,15 @@
           <text value="X location"/>
         </properties>
       </component>
+<<<<<<< HEAD
+<<<<<<< HEAD
       <component id="a0642" class="javax.swing.JTextField" binding="xlocation">
+=======
+      <component id="a0642" class="javax.swing.JTextField" binding="textField6" default-binding="true">
+>>>>>>> 633b0ef... Switch from multiple JPanels to a Form
+=======
+      <component id="a0642" class="javax.swing.JTextField" binding="xlocation">
+>>>>>>> a74c744... Make calculations work
         <constraints>
           <grid row="24" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
