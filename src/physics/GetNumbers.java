@@ -70,7 +70,11 @@ public class GetNumbers extends JDialog {
             }
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
+    private void onOK() {
+// add your code here
+        calculator = new Velocity();
 
+<<<<<<< HEAD
 <<<<<<< HEAD
     private void onOK() #!
 =======
@@ -78,15 +82,21 @@ public class GetNumbers extends JDialog {
 // add your code here
         calculator = new Velocity();
 
+=======
+>>>>>>> 491f85d... Update number retrieval
         calculator.acceleration = makeDouble(acceleration);
         calculator.initialVelocity = makeDouble(initialVelocity);
         calculator.time = makeDouble(inputTime);
         velocityAtTime.replaceSelection(" " + calculator.calculateVelocity());
+<<<<<<< HEAD
 
 
 
     }
 >>>>>>> ade0834... Use JPanels instead of forms
+=======
+    }
+>>>>>>> 491f85d... Update number retrieval
 
     private void onCancel() {
 // add your code here if necessary
