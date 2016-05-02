@@ -70,6 +70,7 @@ public class GetNumbers extends JDialog {
             }
         }, KeyStroke.getKeyStroke(KeyEvent.VK_ESCAPE, 0), JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT);
     }
+<<<<<<< HEAD
     private void onOK() {
 // add your code here
         calculator = new Velocity();
@@ -78,6 +79,8 @@ public class GetNumbers extends JDialog {
 <<<<<<< HEAD
     private void onOK() #!
 =======
+=======
+>>>>>>> 491f85d4e461251797a2ebb27842d7dfd59d9d74
     private void onOK() {
 // add your code here
         calculator = new Velocity();
@@ -89,9 +92,12 @@ public class GetNumbers extends JDialog {
         calculator.time = makeDouble(inputTime);
         velocityAtTime.replaceSelection(" " + calculator.calculateVelocity());
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 491f85d4e461251797a2ebb27842d7dfd59d9d74
     }
 >>>>>>> ade0834... Use JPanels instead of forms
 =======
