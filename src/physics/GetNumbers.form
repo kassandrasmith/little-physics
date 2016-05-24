@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="physics.GetNumbers">
-  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="10" left="10" bottom="10" right="10"/>
-    <constraints>
-      <xy x="48" y="54" width="988" height="297"/>
-=======
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GetNumbers">
   <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
       <xy x="48" y="54" width="978" height="297"/>
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="physics.GetNumbers">
-  <grid id="cbd77" binding="contentPane" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="10" left="10" bottom="10" right="10"/>
-    <constraints>
-      <xy x="48" y="54" width="988" height="297"/>
->>>>>>> a74c744... Make calculations work
     </constraints>
     <properties/>
     <border type="none"/>
@@ -81,21 +65,9 @@
               <text value="Initial Velocity"/>
             </properties>
           </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <component id="4244a" class="javax.swing.JTextField" binding="initialVelocity">
             <constraints>
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false">
-=======
-          <component id="4244a" class="javax.swing.JTextField" binding="TextField1">
-            <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-          <component id="4244a" class="javax.swing.JTextField" binding="initialVelocity">
-            <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="1" use-parent-layout="false">
->>>>>>> a74c744... Make calculations work
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
@@ -111,15 +83,8 @@
               <text value="Acceleration"/>
             </properties>
           </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
           <component id="2f2fd" class="javax.swing.JTextField" binding="acceleration">
-=======
-          <component id="2f2fd" class="javax.swing.JTextField" binding="TextField2">
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-          <component id="2f2fd" class="javax.swing.JTextField" binding="acceleration">
->>>>>>> a74c744... Make calculations work
             <constraints>
               <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -137,15 +102,7 @@
               <text value="At Time"/>
             </properties>
           </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <component id="f9bd6" class="javax.swing.JTextField" binding="inputTime">
-=======
-          <component id="f9bd6" class="javax.swing.JTextField" binding="TextField3">
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-          <component id="f9bd6" class="javax.swing.JTextField" binding="inputTime">
->>>>>>> a74c744... Make calculations work
             <constraints>
               <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -163,30 +120,16 @@
               <text value="Velocity at time"/>
             </properties>
           </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
           <component id="20fdd" class="javax.swing.JTextField" binding="velocityAtTime">
-=======
-          <component id="20fdd" class="javax.swing.JTextField" binding="textField4">
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-          <component id="20fdd" class="javax.swing.JTextField" binding="velocityAtTime">
->>>>>>> a74c744... Make calculations work
+
             <constraints>
               <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
               </grid>
             </constraints>
             <properties>
-<<<<<<< HEAD
-<<<<<<< HEAD
               <text value="6"/>
-=======
-              <text value="?"/>
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-              <text value="6"/>
->>>>>>> a74c744... Make calculations work
             </properties>
           </component>
           <component id="211da" class="javax.swing.JLabel">
@@ -197,15 +140,8 @@
               <text value="initial x location"/>
             </properties>
           </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
           <component id="cf154" class="javax.swing.JTextField" binding="initialX">
-=======
-          <component id="cf154" class="javax.swing.JTextField" binding="TextField5">
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-          <component id="cf154" class="javax.swing.JTextField" binding="initialX">
->>>>>>> a74c744... Make calculations work
             <constraints>
               <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
@@ -223,15 +159,7 @@
               <text value="x location at time"/>
             </properties>
           </component>
-<<<<<<< HEAD
-<<<<<<< HEAD
           <component id="c3c52" class="javax.swing.JTextField" binding="outputx">
-=======
-          <component id="c3c52" class="javax.swing.JTextField" binding="textField6">
->>>>>>> ade0834... Use JPanels instead of forms
-=======
-          <component id="c3c52" class="javax.swing.JTextField" binding="outputx">
->>>>>>> a74c744... Make calculations work
             <constraints>
               <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="-1"/>
